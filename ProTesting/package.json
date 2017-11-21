@@ -1,0 +1,20 @@
+{
+  "name": "ProTesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "commander": "^2.9.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.1",
+    "lodash": "^4.16.4",
+    "q": "^1.4.1",
+    "urijs": "^1.18.3"
+  }
+}

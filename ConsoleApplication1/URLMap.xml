@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<URLList>
+  <Feature name="Library_MSDN" url="int.msdn.microsoft.com/library">
+    <!-- if MaxPageToCrawl is hitted first, the crawlevel would be ignore. -1 mean removing the MaxPageToCrawl, default is 1000 -->
+    <URL CrawlLevel="2" MaxPageToCrawl ="-1">{0}</URL>
+    <URL CrawlLevel="2">{0}/office</URL>
+    <URL CrawlLevel="2">{0}/vstudio</URL>
+    <URL CrawlLevel="2">{0}/azure</URL>
+    <URL CrawlLevel="2">{0}/windows/apps/br211369</URL>
+    <URL CrawlLevel="2">{0}/windows/desktop/hh447209(v=vs.85).aspx</URL>
+    <URL CrawlLevel="2">{0}/windows/hardware/ff557573(v=vs.85).aspx</URL>
+    <URL CrawlLevel="2">{0}/ie/bg124103</URL>
+  </Feature>
+
+  <Feature name="Library_TN" url="int.technet.microsoft.com/library">
+    <URL CrawlLevel="2" MaxPageToCrawl ="-1">{0}</URL>
+  </Feature>
+
+  <Feature name="DMC_MSDN" url="int.msdn.microsoft.com">
+    <URL CrawlLevel="4" MaxPageToCrawl ="-1">{0}</URL>
+  </Feature>
+
+  <Feature name="DMC_TN" url="int.technet.microsoft.com">
+    <URL CrawlLevel="4" MaxPageToCrawl ="-1">{0}</URL>
+  </Feature>
+
+  <Feature name="VSCom" url="vscomint.tfsallin.net" >
+    <URL CrawlLevel="3" MaxPageToCrawl ="-1">{0}</URL>C
+    <URL CrawlLevel="3" MaxPageToCrawl ="-1">{0}/integrate</URL>
+  </Feature>
+</URLList>
